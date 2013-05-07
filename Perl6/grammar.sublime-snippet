@@ -1,0 +1,13 @@
+<snippet>
+    <content><![CDATA[grammar ${1:# name }::Grammar is HLL::Grammar {
+	token TOP() {
+		$2
+	}
+}
+
+say($1::Grammar.parse('$3'));
+]]></content>
+    <tabTrigger>gra</tabTrigger>
+    <scope>source.perl</scope>
+    <description>Grammaire</description>
+</snippet>

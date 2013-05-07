@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[class $1 {
+	method $2($3) {
+	           ${4: statements}
+	}
+}
+
+]]></content>
+    <tabTrigger>class</tabTrigger>
+    <scope>source.perl</scope>
+    <description>class</description>
+</snippet>

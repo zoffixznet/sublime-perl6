@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[token term:sym<$1> { $2 }
+]]></content>
+    <tabTrigger>term</tabTrigger>
+    <scope>source.perl</scope>
+    <description>token term:sym&ltfoo&gt</description>
+</snippet>

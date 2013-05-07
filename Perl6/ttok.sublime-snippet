@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[	token term:sym<$1> {
+		${2: statements}
+	}
+]]></content>
+    <tabTrigger>ttok</tabTrigger>
+    <scope>source.perl</scope>
+    <description>method</description>
+</snippet>

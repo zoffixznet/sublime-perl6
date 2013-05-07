@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[method(\$/) term:sym<$1> { $2 }
+
+]]></content>
+    <tabTrigger>grt</tabTrigger>
+    <scope>source.perl</scope>
+    <description>action term</description>
+</snippet>

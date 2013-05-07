@@ -1,0 +1,33 @@
+<snippet>
+<content><![CDATA[grammar ${1:# name }::Grammar is HLL::Grammar {
+  INIT {
+    Bast::Grammar.O(':prec<y=>, :assoc<unary>', '%methodop');
+    Bast::Grammar.O(':prec<g=>,:assoc<list>, :nextterm<nulltermish>',  '%comma');
+    Bast::Grammar.O(':prec<f=>, :assoc<list>',  '%list_infix');
+  }
+
+	token TOP() {
+	  <EXPR>
+	}
+	token term:sym<$2> {
+	   ${3:regex}
+	}
+}
+
+class  ${1:# name }:Actions {
+	method TOP(\$/) {
+		make ${2:# name }.ast
+	}
+	method term:<$2>(\$/) {
+		${4:intructions}
+	}
+}
+
+my $m = $1::Grammar.parse('');
+die 'parse failed' unless \$m;
+say(\$m);
+]]></content>
+    <tabTrigger>gex</tabTrigger>
+    <scope>source.perl</scope>
+    <description>EXPR gram</description>
+</snippet>

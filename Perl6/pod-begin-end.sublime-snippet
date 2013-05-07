@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[=begin $1
+	${2:# body...}
+=end $1
+}
+]]></content>
+    <tabTrigger>beg</tabTrigger>
+    <scope>source.perl</scope>
+    <description>Pod begin/end</description>
+</snippet>

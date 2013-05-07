@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[method $1($2) {
+		${4: statements}
+		}
+}
+
+]]></content>
+    <tabTrigger>meth</tabTrigger>
+    <scope>source.perl</scope>
+    <description>method</description>
+</snippet>

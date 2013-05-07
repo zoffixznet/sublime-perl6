@@ -1,0 +1,26 @@
+<snippet>
+<content><![CDATA[grammar ${1:# name }::Grammar is HLL::Grammar {
+	token TOP() {
+	  <${2:# name }>
+	}
+	token ${2:# name } {
+	}
+}
+
+class  ${1:# name }:Actions {
+	method TOP(\$/) {
+		make ${2:# name }.ast
+	}
+	method ${2:# name }(\$/) {
+		make *.ast
+	}
+}
+
+my $m = $1::Grammar.parse('');
+die 'parse failed' unless \$m;
+say(\$m);
+]]></content>
+    <tabTrigger>graa</tabTrigger>
+    <scope>source.perl</scope>
+    <description>Grammar-Action</description>
+</snippet>
