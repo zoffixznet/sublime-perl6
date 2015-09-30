@@ -24,7 +24,7 @@
 	<key>keyEquivalent</key>
 	<string>^~P</string>
 	<key>name</key>
-	<string>Perl</string>
+	<string>Perl6</string>
 	<key>patterns</key>
 	<array>
 		<dict>
@@ -3203,8 +3203,8 @@
 		</dict>
 	</dict>
 	<key>scopeName</key>
-	<string>source.perl</string>
+	<string>source.perl6</string>
 	<key>uuid</key>
-	<string>EDBFE125-6B1C-11D9-9189-000D93589AF6</string>
+	<string>9BD2C97C-6770-11E5-A91D-8DD78A896B97</string>
 </dict>
 </plist>
