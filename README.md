@@ -4,8 +4,8 @@ Slightly adapted from the ST2 Perl package so need a lot of work.
 The snippets are now mostly geared to do a presentation about operator precedence
 grammar.git
 Perl6.tmlanguage is hardly correct.
-I want at least the C<=begin foo  =end foo> section not to trigger comment mode
-until the end.
+I want at least the `=begin foo  =end foo` section not to trigger comment
+mode until the end.
 
 ## Installation
 
