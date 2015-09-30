@@ -9,7 +9,9 @@
 	<key>fileTypes</key>
 	<array>
 		<string>pl</string>
+		<string>pl6</string>
 		<string>pm</string>
+		<string>pm6</string>
 		<string>p6</string>
 		<string>nqp</string>
 		<string>t</string>
